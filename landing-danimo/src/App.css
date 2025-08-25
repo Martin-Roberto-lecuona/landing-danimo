@@ -1,0 +1,119 @@
+/* Fuente más moderna */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Animaciones */
+.fade-in {
+  animation: fadeIn 1.2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Botones */
+.btn-dark {
+  background-color: #595154;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn-dark:hover {
+  transform: scale(1.05);
+  background-color: #3d383a;
+}
+
+.btn-main {
+  margin-top: 1.5rem;
+  background-color: #f7a1b2;
+  color: #fff;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn-main:hover {
+  transform: scale(1.08);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+/* Hero */
+.hero-bg {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: linear-gradient(135deg, #f7a1b2 0%, #e3c8e4 100%);
+  opacity: 0.2;
+  z-index: -1;
+}
+
+.hero-title {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+}
+
+.hero-text {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+}
+
+/* Features */
+.features {
+  padding: 3rem 2rem;
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.card {
+  padding: 1.5rem;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.dark-card {
+  color: #fff;
+}
+
+/* Team */
+.team {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+.team-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  margin-top: 2rem;
+}
+.team-card {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+.team-card:hover {
+  transform: scale(1.05);
+}
+.team-img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
