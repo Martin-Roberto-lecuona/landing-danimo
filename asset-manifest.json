@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Martin-Roberto-lecuona/landing-danimo/static/css/main.8de344e2.css",
+    "main.js": "/Martin-Roberto-lecuona/landing-danimo/static/js/main.3f44783a.js",
+    "static/js/453.ad260046.chunk.js": "/Martin-Roberto-lecuona/landing-danimo/static/js/453.ad260046.chunk.js",
+    "index.html": "/Martin-Roberto-lecuona/landing-danimo/index.html",
+    "main.8de344e2.css.map": "/Martin-Roberto-lecuona/landing-danimo/static/css/main.8de344e2.css.map",
+    "main.3f44783a.js.map": "/Martin-Roberto-lecuona/landing-danimo/static/js/main.3f44783a.js.map",
+    "453.ad260046.chunk.js.map": "/Martin-Roberto-lecuona/landing-danimo/static/js/453.ad260046.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8de344e2.css",
+    "static/js/main.3f44783a.js"
+  ]
+}
